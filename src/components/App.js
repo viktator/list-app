@@ -4,6 +4,7 @@ import UserForm from "./UserForm";
 import Select from 'react-select'
 import DatePicker from 'react-date-picker';
 import './main.css'
+import Counetr from './Counter'
 
 import { articles } from "../fixtures";
 
@@ -28,6 +29,7 @@ class App extends Component {
       }))
     return (
       <div>
+       <Counetr />
        <UserForm />
           <DatePicker
               className={'datapicker'}
